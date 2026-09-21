@@ -12,7 +12,9 @@ We are using Python and Google Colab for this project. Packages required for thi
 * LISENCE.md
 * SCRIPTS folder 
 * DATA folder
-    * aclImdb_reviews.zip 
+    * aclImdb_reviews.zip
+         * test
+         * train 
 * OUTPUT folder
 
 ## Instructions for reproducing results 
