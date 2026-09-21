@@ -1,5 +1,6 @@
 # Group-5-DS-4002
 Contains Project 1 work for DS 4002 Group 5 Fall 2026
+
 Members: Samuel Bromberg, Inmar Chavarria, Angelika Baloy 
 
 ## Analyzing Language Patterns of IMDb Reviews 
