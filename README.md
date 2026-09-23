@@ -15,9 +15,10 @@ We are using Python and Google Colab for this project. Packages required for thi
     * 01_load_clean_data
     * 02_analysis 
 * DATA folder
+    * README.md
     * aclImdb_reviews.zip
          * test
-         * train 
+         * train
 * OUTPUT folder
     * analysis_results 
 
