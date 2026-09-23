@@ -10,15 +10,18 @@ We are using Python and Google Colab for this project. Packages required for thi
 
 ## Documentation 
 * README.md
-* LISENCE.md
-* SCRIPTS folder 
+* LICENSE.md
+* SCRIPTS folder
+    * 01_load_clean_data
+    * 02_analysis 
 * DATA folder
     * aclImdb_reviews.zip
          * test
          * train 
 * OUTPUT folder
+    * analysis_results 
 
 ## Instructions for reproducing results 
-1. Download data from aclImdb_reviews.zip located in the Data folder. 
+1. Download raw data from aclImdb_reviews.zip located in the Data folder. 
 2. Clean data by running script 01 in the scripts folder. We removed special characters (including punctuation marks), HTML tags, and extra spaces to streamline our feature analysis.
 3. 
