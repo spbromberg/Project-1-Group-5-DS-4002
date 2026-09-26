@@ -17,6 +17,7 @@ We will analyze reviews in aggregate, avoid attempting to identify authors, and 
 
 Data dictionary: 
       Feature / Type / Meaning / Uncertainty 
+      
       1. Review_id: integer; identifier carried from the review filename; Not globally unique by itself; interpret with split/sentiment context.
       2. Review: text; full written movie review; May contain punctuation, capitalization, names, and other user-written variation
       3. Rating: integer; IMDb rating associated with the review, ranges from 1-4 for negative and 7-10 for positive; Ratings are 5-6 are intentionally absent from labeled data
