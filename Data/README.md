@@ -28,6 +28,7 @@ We will analyze reviews in aggregate, avoid attempting to identify authors, and 
       Word Count: integer; number of whitespace-separated words in a review; Engineered during EDA: tokenization choice can slightly change counts (not included in data). 
 
 ## Explanatory plots: 
+![explanatory plots](explanatory_plots.png)
 
 References:
 
