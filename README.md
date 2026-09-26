@@ -20,13 +20,14 @@ We are using Python and Google Colab on Mac for this project. The main packages 
 * DATA folder
     * README.md
     * Access_Data
+    * explanatory_plots.png
 * OUTPUT folder
-    * confusion_matrix
-    * top_positive_words
-    * top_negative_words
-    * final_lr_model_performance
-    * word_count_v_tfidf
-    * review_length_by_sentiment
+    * confusion_matrix.png
+    * top_positive_words.png
+    * top_negative_words.png
+    * final_lr_model_performance.png
+    * word_count_v_tfidf.png
+    * review_length_by_sentiment.png
 
 ## Instructions for reproducing results 
 1. Access the data by opening the Access_Data file in the Data folder. The first link is to the original study that used this data. The second link is to a Google
