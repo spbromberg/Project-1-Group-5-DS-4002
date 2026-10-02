@@ -27,8 +27,54 @@ We will analyze reviews in aggregate, avoid attempting to identify authors, and 
       5. Split: train/test; original benchmark partition; Must be preserved to prevent test-set leakage
       Word Count: integer; number of whitespace-separated words in a review; Engineered during EDA: tokenization choice can slightly change counts (not included in data). 
 
+<table>
+      <tr>
+            <th>Feature</th>
+            <th>Type</th>
+            <th>Meaning</th>
+            <th>Uncertainty</th>
+      </tr>
+      <tr>
+            <td>Review_id</td>
+            <td>integer</td>
+            <td>identifier carried from the review filename</td>
+            <td>Not globally unique by itself; interpret with split/sentiment context</td>
+      </tr>    
+      <tr>
+            <td>Review</td>
+            <td>text</td>
+            <td>full written movie review</td>
+            <td>May contain punctuation, capitalization, names, and other user-written variation</td>
+       </tr>
+      <tr>
+            <td>Rating</td>
+            <td>integer</td>
+            <td>IMDb rating associated with the review, ranges from 1-4 for negative and 7-10 for positive</td>
+            <td>Ratings are 5-6 are intentionally absent from labeled data</td>
+      </tr> 
+      <tr>
+            <td>Sentiment</td>
+            <td>Positive/Negative</td>
+            <td>Binary response variable</td>
+            <td>Derived from rating thresholds</td>
+       </tr>
+      <tr>
+            <td>Split</td>
+            <td>train/test</td>
+            <td>Original benchmark partition</td>
+            <td>Must be preserved to prevent test-set leakage</td>
+       </tr>
+      <tr>
+            <td>Word Count</td>
+            <td>integer</td>
+            <td>number of whitespace-separated words in a review</td>
+            <td>Engineered during EDA: tokenization choice can slightly change counts (not included in data)</td>
+       </tr>
+</table>
+
 ## Explanatory plots: 
 ![explanatory plots](explanatory_plots.png)
+*Figure 1 verifies that there is an even split of positive and negative sentiment among the 50,000 total reviews. Figure 2 shows that review length, or word count, is not a good indicator of sentiment. Negative and Positive reviews are generally very similar in length, supporting our investigation of specific language patterns within these reviews.*
 
 References:
 
