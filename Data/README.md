@@ -18,14 +18,6 @@ The observations are user-written movie reviews publicly-available on IMDb. The 
 We will analyze reviews in aggregate, avoid attempting to identify authors, and avoid reproducing long individual reviews in reports or presentations.
 
 ## Data dictionary: 
-      Feature / Type / Meaning / Uncertainty 
-      
-      1. Review_id: integer; identifier carried from the review filename; Not globally unique by itself; interpret with split/sentiment context.
-      2. Review: text; full written movie review; May contain punctuation, capitalization, names, and other user-written variation
-      3. Rating: integer; IMDb rating associated with the review, ranges from 1-4 for negative and 7-10 for positive; Ratings are 5-6 are intentionally absent from labeled data
-      4. Sentiment: Positive/Negative; binary response variable; Derived from rating thresholds
-      5. Split: train/test; original benchmark partition; Must be preserved to prevent test-set leakage
-      Word Count: integer; number of whitespace-separated words in a review; Engineered during EDA: tokenization choice can slightly change counts (not included in data). 
 
 <table>
       <tr>
@@ -36,19 +28,19 @@ We will analyze reviews in aggregate, avoid attempting to identify authors, and 
       </tr>
       <tr>
             <td>Review_id</td>
-            <td>integer</td>
-            <td>identifier carried from the review filename</td>
+            <td>Integer</td>
+            <td>Identifier carried from the review filename</td>
             <td>Not globally unique by itself; interpret with split/sentiment context</td>
       </tr>    
       <tr>
             <td>Review</td>
-            <td>text</td>
-            <td>full written movie review</td>
+            <td>Text</td>
+            <td>Full written movie review</td>
             <td>May contain punctuation, capitalization, names, and other user-written variation</td>
        </tr>
       <tr>
             <td>Rating</td>
-            <td>integer</td>
+            <td>Integer</td>
             <td>IMDb rating associated with the review, ranges from 1-4 for negative and 7-10 for positive</td>
             <td>Ratings are 5-6 are intentionally absent from labeled data</td>
       </tr> 
@@ -60,14 +52,14 @@ We will analyze reviews in aggregate, avoid attempting to identify authors, and 
        </tr>
       <tr>
             <td>Split</td>
-            <td>train/test</td>
+            <td>Train/test</td>
             <td>Original benchmark partition</td>
             <td>Must be preserved to prevent test-set leakage</td>
        </tr>
       <tr>
             <td>Word Count</td>
-            <td>integer</td>
-            <td>number of whitespace-separated words in a review</td>
+            <td>Integer</td>
+            <td>Number of whitespace-separated words in a review</td>
             <td>Engineered during EDA: tokenization choice can slightly change counts (not included in data)</td>
        </tr>
 </table>
