@@ -13,21 +13,22 @@ Maas, Andrew L. and Daly, Raymond E. and Pham, Peter T. and Huang, Dan and Ng, A
 We are using Python and Google Colab on Mac for this project. The main packages required for this analysis are numpy, pandas, matplotlib, seaborn, sklearn's Logistic Regression, and RegEx (re). 
 
 ## Documentation 
-* README.md
-* LICENSE.md
-* SCRIPTS folder
-    * IMDb_Reviews_Project.ipynb
+
 * DATA folder
-    * README.md
     * Access_Data
+    * README.md
     * explanatory_plots.png
 * OUTPUT folder
     * confusion_matrix.png
-    * top_positive_words.png
-    * top_negative_words.png
     * final_lr_model_performance.png
-    * word_count_v_tfidf.png
     * review_length_by_sentiment.png
+    * top_negative_words.png
+    * top_positive_words.png
+    * word_count_v_tfidf.png
+* SCRIPTS folder
+    * IMDb_Reviews_Project.ipynb
+* LICENSE.md
+* README.md
 
 ## Instructions for reproducing results 
 1. Access the data by opening the Access_Data file in the Data folder. The first link is to the original study that used this data. The second link is to a Google
