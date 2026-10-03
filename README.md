@@ -19,6 +19,7 @@ We are using Python and Google Colab on Mac for this project. The main packages 
     * README.md
     * explanatory_plots.png
 * OUTPUT folder
+    * conclusion.md
     * confusion_matrix.png
     * final_lr_model_performance.png
     * review_length_by_sentiment.png
