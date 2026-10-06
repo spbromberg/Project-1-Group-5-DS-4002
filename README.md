@@ -10,7 +10,18 @@ We are using data from Stanford's Large Movie Reviews Dataset:
 Maas, Andrew L. and Daly, Raymond E. and Pham, Peter T. and Huang, Dan and Ng, Andrew Y. and Potts, Christopher, “Learning Word Vectors for Sentiment Analysis,” Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies, p.142, June 2011. Available: http://www.aclweb.org/anthology/P11-1015.
 
 ## Software and platform
-We are using Python and Google Colab on Mac for this project. The main packages required for this analysis are numpy, pandas, matplotlib, seaborn, sklearn's Logistic Regression, and RegEx (re). 
+- Software: Python 3 (notebook: IMDb_Reviews_Project.ipynb)
+- Platform: Google Colab
+- Python Version:  3.13.16
+
+| Package | Version | Used for|
+|----------|----------|----------|
+| numpy   |    2.1.3      |  Array operations, sorting model coefficients  |
+| pandas    |   2.2.3      |  	Loading, cleaning, and splitting the dataset   |
+| matplotlib    |    3.10.0      |  	Plots (confusion matrix, word charts, histograms)   |
+| seaborn   |  0.13.2        |   	Imported for visualization       |
+| scikit-learn   |    1.6.1      |   	CountVectorizer, TfidfVectorizer, LogisticRegression, cross-validation, metrics    |
+| re   |  Python standard library       |   Regex text cleaning (no install needed)    |
 
 ## Documentation 
 
