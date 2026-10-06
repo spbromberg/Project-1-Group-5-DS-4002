@@ -9,7 +9,7 @@ We are using data from Stanford's Large Movie Reviews Dataset:
 
 Maas, Andrew L. and Daly, Raymond E. and Pham, Peter T. and Huang, Dan and Ng, Andrew Y. and Potts, Christopher, “Learning Word Vectors for Sentiment Analysis,” Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies, p.142, June 2011. Available: http://www.aclweb.org/anthology/P11-1015.
 
-## Software and platform
+## Software and Platform
 - Software: Python 3 (notebook: IMDb_Reviews_Project.ipynb)
 - Platform: Google Colab
 - Python Version:  3.13.16
